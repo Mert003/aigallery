@@ -37,6 +37,7 @@
     color: #fff; /* Set your desired text color */
     font-family: 'Montserrat', sans-serif;
   }
+  
 
   @media screen and (max-width:998px) {
     .hero-innerContainer{

@@ -26,7 +26,7 @@ const Hero = () => {
     >
       <div className='hero-innerContainer'>
 
-      <motion.h1 variants={itemVariants}>Artificial Visions: A Gallery of AI-Generated Art <HiStar color='gold' /></motion.h1>
+      <motion.h1 variants={itemVariants}>Artificial Visions: A Gallery of AI-Generated Art </motion.h1>
       <motion.p variants={itemVariants}>
       Welcome to our AI Art Gallery! Explore amazing art made by computers. See how machines turn code into stunning images. It's a whole new world where technology meets creativity. Dive in and enjoy the beauty of AI-generated art!
       </motion.p>
