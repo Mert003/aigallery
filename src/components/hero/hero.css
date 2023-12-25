@@ -1,0 +1,54 @@
+/* hero.css */
+.hero-container {
+   
+   background: url("../../images/background2.png");
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size: cover;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   
+   min-height: 90vmin; /* Set your desired background color */
+
+  }
+  
+
+  .hero-container p {
+    font-size: 1.2rem;
+    color: #fff; /* Set your desired text color */
+    font-family: "Open-sans" , sans-serif;
+  }
+  
+  .hero-innerContainer{
+    width: 40%;
+    /* margin-left: 10rem;
+    margin-top: 5rem; */
+
+    margin: 5rem 5rem;
+   
+  }
+  .hero-innerContainer h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #fff; /* Set your desired text color */
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media screen and (max-width:998px) {
+    .hero-innerContainer{
+      width: 80%;
+      margin:20px auto;
+      text-align: center;
+      
+     
+    }
+    .hero-container{
+      background: url("../../images/backgroundmobile.png");
+      background-position: bottom right;
+      background-size: cover;
+    }
+  }

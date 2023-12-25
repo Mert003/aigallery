@@ -1,0 +1,43 @@
+.extraordinary-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .extraordinary-container h1{   
+     
+     font-family: 'Montserrat', sans-serif;
+     
+     color: #000777;
+    font-size: 3rem;
+   
+     
+  }
+  .illustrations-container svg{   
+     
+    
+    
+    color: #000777;
+   font-size: 3rem;
+  
+    
+ }
+ .illustrations-item{
+    min-width: 20%;
+    
+    aspect-ratio: 1/1.5;
+   border-radius: 2rem;
+   object-fit: cover;
+   object-position: center;
+     flex: 1;
+ }
+ .illustrations-innerContainer{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    
+     width: 80%;
+     margin: 10px auto;
+     gap: 1rem;
+ }

@@ -1,0 +1,47 @@
+.ui-design-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .ui-design-container h1{   
+     
+     font-family: 'Montserrat', sans-serif;
+     
+     color: #000777;
+    font-size: 3rem;
+   
+     
+  }
+  .ui-design-container svg{   
+     
+    
+    
+    color: #000777;
+   font-size: 3rem;
+  
+    
+ }
+ .ui-item{
+    min-width: 25%;
+   border-radius: 2rem;
+   object-fit: cover;
+   object-position: center;
+     flex: 1;
+ }
+ .ui-design-innerContainer{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    
+     width: 80%;
+     margin: 10px auto;
+     gap: 1rem;
+ }
+
+ @media screen and (max-width:998px) {
+  .ui-item{
+    min-width: 40%;
+  }
+ }

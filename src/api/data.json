@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "type": "creative",
+        "imagePaths": [
+            "/images/creative.jpg",
+            "/images/creative2.jpg",
+            "/images/creative3.jpg",
+            "/images/creative4.jpg",
+            "/images/creative5.jpg",
+            "images/creative6.jpg",
+            "/images/creative7.jpg",
+            "/images/creative8.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "craft",
+        "imagePaths": [
+            "/images/craft1.jpg",
+            "/images/craft2.jpg",
+            "/images/craft3.jpg",
+            "/images/craft4.jpg",
+            "/images/craft5.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "dress",
+        "imagePaths": [
+            "/images/dress.jpg",
+            "/images/dress1.jpg",
+            "/images/dress2.jpg",
+            "/images/dress3.jpg",
+            "/images/dress4.jpg",
+            "/images/dress5.jpg",
+            "/images/dress6.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "extraordinary",
+        "imagePaths": [
+            "/images/extraordinary.jpg",
+            "/images/extraordinary2.jpg",
+            "/images/extraordinary3.jpg",
+            "/images/extraordinary4.jpg",
+            "/images/extraordinary5.jpg",
+            "/images/extraordinary6.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "type": "illustrations",
+        "imagePaths": [
+            "/images/illustrations.jpg",
+            "/images/illustrations1.jpg",
+            "/images/illustrations2.jpg",
+            "/images/illustrations3.jpg",
+            "/images/illustrations4.jpg",
+            "/images/illustrations5.jpg",
+            "/images/illustrations6.jpg",
+            "/images/illustrations7.jpg"
+        
+        ]
+    },
+    {
+        "id": 6,
+        "type": "uiweb",
+        "imagePaths": [
+            "/images/uiweb.jpg",
+         
+            "/images/uiweb2.jpg",
+            "/images/uiweb3.jpg",
+            "/images/uiweb4.jpg",
+            "/images/uiweb5.jpg",
+            "/images/uiweb6.jpg",
+            "/images/uiweb7.jpg",
+            "/images/uiweb8.jpg",
+            "/images/uiweb9.jpg"
+        
+        ]
+    }
+]

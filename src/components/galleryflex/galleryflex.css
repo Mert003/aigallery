@@ -1,0 +1,42 @@
+.gallery-flex{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.gallery-flex h1{   
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #000777;
+   font-size: 3rem;
+    
+ }
+ .gallery-flex svg{
+  font-size: 3rem;
+  
+  color: #000777;
+ }
+.flex-item{
+   min-width: 25%;
+  border-radius: 2rem;
+  object-fit: cover;
+  object-position: center;
+    flex: 1;
+}
+.gallery-flex-innerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    width: 80%;
+    margin: 10px auto;
+    gap: 1rem;
+}
+
+@media screen and (max-width:998px) {
+  .flex-item{
+    min-width: 40%;
+  }
+}
